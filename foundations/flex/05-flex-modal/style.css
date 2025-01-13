@@ -20,6 +20,12 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px;
 }
 
 .icon {
@@ -32,7 +38,9 @@ body {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:center;
+  flex-shrink: 0;
+  
 }
 
 .close-button {
@@ -66,4 +74,23 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.topo 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header
+{
+  font-weight: bold;
+
+}
+
+.text
+{
+  margin-bottom: 16px;
+
 }
